@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>SkipHostel-Wifi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>Document</title>
 </head>
-
 <body>
+  <div id="popup-root">
+
     <div class="container">
-        <h1>SkipHostel</h1>
-        <div class="subtitle">WiFi Connection</div>
-        <div class="input-wrapper">
-            <input id="uid" type="text" placeholder="Enter User ID" required autocomplete="off">
-        </div>
-        <button id="submit">Connect</button>
-        <p id="output"></p>
+      <h1>SkipHostelWifi</h1>
+      <div class="subtitle">WiFi Connection Assistant</div>
+
+      <div class="input-wrapper">
+        <input id="uid" type="text" placeholder="Enter User ID" autocomplete="off">
+      </div>
+
+      <button id="submit"><span>Connect</span></button>
+      <p id="output"></p>
     </div>
-    <script src="script.js"></script>
+
+    <!-- spacer that forces height -->
+    <!-- <div style="height: 40px;"></div> -->
+
+    <!-- <p class="credits">Built by person1 &Person2longname</p> -->
+
+  </div>
+  <script src="script.js"></script>
 </body>
+
+  <footer class="footer">
+    <span class="built-by">Built by Dhananjay & Arjun Sateesh </span>
+    <span class="sep">•</span>
+    <a href="https://github.com/Dhananjaydev84/wifi-automation" target="_blank">GitHub</a>
+    <span class="sep">•</span>
+    <span class="version">v1.0.0</span>
+  </footer>
 
 </html>
